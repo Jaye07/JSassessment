@@ -29,10 +29,10 @@ function mintNFT(_yname, _hairColor, _shirt, _accessories) {
 // and print their metadata with console.log()
 function listNFTs() {
     for (let i = 0; i < NFTs.length; i++) {
-        console.log("\nName: \t\t " + NFTs[i].name);
-        console.log("Haircolor: \t " + NFTs[i].hairColor);
-        console.log("Shirt: \t\t " + NFTs[i].shirt);
-        console.log("Accessories: " + NFTs[i].accessories);
+        console.log("\nName: \t\t\t  " + NFTs[i].name);
+        console.log("Haircolor: \t  " + NFTs[i].hairColor);
+        console.log("Shirt: \t\t\t  " + NFTs[i].shirt);
+        console.log("Accessories:  " + NFTs[i].accessories);
     }
 }
 
